@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fstream>
 
-void realloc(size_t[], size_t);
-
 /**
  * The program reads numbers from a file and prsize_ts the sum of them
  * Example: main.exe ./tests/input.in
