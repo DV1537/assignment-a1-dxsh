@@ -21,7 +21,7 @@ lint:
 
 memcheck:
 	valgrind --log-file=$(LOG_TO) --tool=memcheck --leak-check=yes \
-	    --show-leak-kinds=all ./$(PRGM)
+	    --show-leak-kinds=all ./$(PRGM) ${TXT_FILE}
 
 clean:
 		rm -rf $(OBJS) $(PRGM)
