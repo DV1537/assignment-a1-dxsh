@@ -12,9 +12,9 @@ class Shape {
    Shape(std::string shape) : shape{shape} {}  /* ? */
    virtual std::string getType() const = 0;
    virtual int area() const = 0;
-   virtual int positon() const = 0;
+   virtual int position() const = 0;
    virtual bool isConvex() const = 0;
-   virtual int distance(Shape &s) const = 0;
+   virtual int distance(Shape& s) const = 0;
 };
 
 #endif
